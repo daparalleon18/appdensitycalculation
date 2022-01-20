@@ -27,3 +27,18 @@ The raw data used in the script are 'population.csv' and 'regionarea.csv' which 
 
 ### Population Density Formula
  Finally, once city and barangay areas are derived from the available data, population density can now be computed using the following formula: population / area
+ 
+### List of Files:
+1. Raw Data
+    - population.csv
+    - regionarea.csv
+2. Script
+    - BarangayDensity.R
+    - CityDensity.R 
+3. Output
+    - BarangayDensity.csv - Top 5 barangays in the Philippines with highest population density
+    - BarangayDensityRegion.csv - Top 5 barangays by region with highest population density
+    - BarangayDensityCity.csv - Top 5 barangays by city with highest population density
+    - CityDensity.csv - Top 5 cities in the Philippines with highest population density
+    - CityDensityRegion.csv - Top 5 cities by region with highest population density
+
